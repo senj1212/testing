@@ -1,0 +1,505 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="css/main.css?v=0.1" />
+      <link rel="stylesheet" href="css/mobile.css?v=0.1" />
+      <title>Test</title>
+      <script src="js/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+      <header>
+        <div class="alarm">
+          <div class="container">
+            <div class="alarm__content">
+              <div class="alarm__textAlarm alarm__baseText">
+                <img src="img/alert.svg" alt="" />
+                <span>You are not protected</span>
+              </div>
+              <div class="alarm__IP alarm__baseText">
+                <span>Your IP Address: 107.3.176.194</span>
+              </div>
+              <div class="alarm__ISP alarm__baseText">
+                <span>Your ISP: Comcast Cable</span>
+              </div>
+              <div class="alarm__More alarm__baseText">
+                <span>Learn More ›</span>
+              </div>
+            </div>
+          </div>
+          <button class="alarm__closeButton">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z"
+                fill="#889099"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="topHeader inlineWraper">
+          <div class="topHeader__leftPanel">
+            <img src="img/combomenu.svg" alt="" class="topHeader__comboMenu">
+            <h2 class="topHeader__compName">Company Name</h2>
+          </div>
+          <nav class="topHeader__navPanel">
+            <a>WHY US <img src="img/arrowBottom.svg" alt="" /></a>
+            <a>VPN APPS</a>
+            <a>SUPPORT <img src="img/arrowBottom.svg" alt="" /></a>
+            <a>RESOURCES <img src="img/arrowBottom.svg" alt="" /></a>
+          </nav>
+          <div>
+            <button class="topHeader__btnLogin btn btnWhite">LOG IN</button>
+            <button class="topHeader__btnGetStart btn btnGreen">
+              GET STARTED
+            </button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="topNew news inlineWraper">
+          <img src="img/topNew.png" alt="topNew" class="topNew__img" />
+          <div class="newsContent">
+            <p class="newsContent__title">
+              TV Addons: Legal battle against Canadian media giants demonstrates
+              severe consequences facing developers accused of copyright
+              infringement
+            </p>
+            <div>
+              <div>
+                <span class="newsContent__autor"> Danica Sergison </span>
+                <span class="newsContent__date"> | JUL 08, 2018</span>
+              </div>
+              <div class="newsContent__tags tag">
+                Copyright, News, Open Source, Privacy
+              </div>
+              <div class="newsContent__comments">
+                <img
+                  src="img/comment.svg"
+                  alt=""
+                  class="newsContent__comments__ico"
+                />
+                <span class="newsContent__comments__count">0</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="inlineWraper">
+          <div class="container">
+            <div class="tagsMenu">
+              <div class="tagsMenu__leftContainer">
+                <span>TAGS:</span>
+                <ul class="tagsMenu__tags">
+                  <li class="tag">bitcoin</li>
+                  <li class="tag">bittorrent</li>
+                  <li class="tag">irc</li>
+                  <li class="tag">news</li>
+                  <li class="tag">privacy</li>
+                  <li class="tag">programming</li>
+                  <li class="tag">security</li>
+                </ul>
+              </div>
+              <div class="tagsMenu__rightContainer">
+                <a href="#" class="tagsMenu__rightContainer__team">TEAM</a>
+                <a href="#">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="inlineWraper mainSection">
+          <div class="mainContent">
+            <h2 class="mainContent__title">Recent posts</h2>
+            <div class="container news">
+              <img src="img/new1.png" alt="new" />
+              <div class="newsContent">
+                <p class="newsContent__title">
+                  The Internet Cannot be Trusted – Beamsplitters, Backdoors, and
+                  Broken Promises
+                </p>
+                <div>
+                  <div>
+                    <span class="newsContent__autor">Derek Zimmer</span>
+                    <span class="newsContent__date"> | JUL 25, 2018</span>
+                  </div>
+                  <p class="newsContent__tags tag">
+                    Governments, Networking, Open Source, Privacy, Security
+                  </p>
+                  <div class="newsContent__comments">
+                    <img
+                      src="img/comment.svg"
+                      alt=""
+                      class="newsContent__comments__ico"
+                    />
+                    <span class="newsContent__comments__count">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container news">
+              <img src="img/new2.png" alt="new" />
+              <div class="newsContent">
+                <p class="newsContent__title">
+                  How to get cheaper flights using a VPN
+                </p>
+                <div>
+                  <div>
+                    <span class="newsContent__autor">Jayson</span>
+                    <span class="newsContent__date"> | JUL 24, 2018</span>
+                  </div>
+                  <p class="newsContent__tags tag">Guides</p>
+                  <div class="newsContent__comments">
+                    <img
+                      src="img/comment.svg"
+                      alt=""
+                      class="newsContent__comments__ico"
+                    />
+                    <span class="newsContent__comments__count">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container news">
+              <img src="img/new3.png" alt="new" />
+              <div class="newsContent">
+                <p class="newsContent__title">
+                  Net Neutrality was repealed, but the fight is far from over
+                </p>
+                <div>
+                  <div>
+                    <span class="newsContent__autor">Chris Miller</span>
+                    <span class="newsContent__date"> | JUL 22, 2018</span>
+                  </div>
+                  <p class="newsContent__tags tag">
+                    Governments, Net Neutrality, News
+                  </p>
+                  <div class="newsContent__comments">
+                    <img
+                      src="img/comment.svg"
+                      alt=""
+                      class="newsContent__comments__ico"
+                    />
+                    <span class="newsContent__comments__count">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container news">
+              <img src="img/new1.png" alt="new" />
+              <div class="newsContent">
+                <p class="newsContent__title">
+                  The Internet Cannot be Trusted – Beamsplitters, Backdoors, and
+                  Broken Promises
+                </p>
+                <div>
+                  <div>
+                    <span class="newsContent__autor">Derek Zimmer</span>
+                    <span class="newsContent__date"> | JUL 25, 2018</span>
+                  </div>
+                  <p class="newsContent__tags tag">
+                    Governments, Networking, Open Source, Privacy, Security
+                  </p>
+                  <div class="newsContent__comments">
+                    <img
+                      src="img/comment.svg"
+                      alt=""
+                      class="newsContent__comments__ico"
+                    />
+                    <span class="newsContent__comments__count">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container news">
+              <img src="img/new2.png" alt="new" />
+              <div class="newsContent">
+                <p class="newsContent__title">
+                  How to get cheaper flights using a VPN
+                </p>
+                <div>
+                  <div>
+                    <span class="newsContent__autor">Jayson</span>
+                    <span class="newsContent__date"> | JUL 24, 2018</span>
+                  </div>
+                  <p class="newsContent__tags tag">Guides</p>
+                  <div class="newsContent__comments">
+                    <img
+                      src="img/comment.svg"
+                      alt=""
+                      class="newsContent__comments__ico"
+                    />
+                    <span class="newsContent__comments__count">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container news">
+              <img src="img/new3.png" alt="new" />
+              <div class="newsContent">
+                <p class="newsContent__title">
+                  Net Neutrality was repealed, but the fight is far from over
+                </p>
+                <div>
+                  <div>
+                    <span class="newsContent__autor">Chris Miller</span>
+                    <span class="newsContent__date"> | JUL 22, 2018</span>
+                  </div>
+                  <p class="newsContent__tags tag">
+                    Governments, Net Neutrality, News
+                  </p>
+                  <div class="newsContent__comments">
+                    <img
+                      src="img/comment.svg"
+                      alt=""
+                      class="newsContent__comments__ico"
+                    />
+                    <span class="newsContent__comments__count">0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mainContent__bottomRow">
+              <button class="mainContent__btnOldPost btn btnWhite">
+                older posts
+              </button>
+            </div>
+          </div>
+          <aside>
+            <div class="aside__searchBlogContainer">
+              <img src="img/search.svg" alt="" />
+              <input
+                class="aside__searchBlogInput"
+                type="text"
+                placeholder="Search blog"
+              />
+            </div>
+            <div class="container">
+              <div class="asidePanel">
+                <h2><img src="img/anons.svg" alt="" />Announcements</h2>
+                <ul>
+                  <li>
+                    Upcoming Changes (Live Chat, Less Censorship, More Access)
+                  </li>
+                  <li>New Servers (US Washington DC)</li>
+                  <li>New Servers (US Denver)</li>
+                  <li>Open Source: Releasing the PIA iOS Client</li>
+                  <li>Opera Extension is now available</li>
+                </ul>
+              </div>
+              <div class="asidePanel">
+                <h2><img src="img/Popular.svg" alt="" />Popular posts</h2>
+                <ul>
+                  <li>The Gift of Privacy</li>
+                  <li>
+                    UK High Court Censors Many Links To Popcorn Time: Useless,
+                    Dangerous Gesture
+                  </li>
+                  <li>
+                    About the PIA Client Security and VPN Security in General
+                  </li>
+                  <li>
+                    A Private Net Is Just As Fundamental A Right As Freedom Of
+                    Speech
+                  </li>
+                  <li>
+                    Wiretapping Today Just Doesn’t Mean What The Word Meant In The
+                    1990s, So Don’t Fall For That Lie
+                  </li>
+                </ul>
+              </div>
+              <div class="aside__ads container" >
+                <img src="img/ADS.jpg" alt="" />
+              </div>
+              
+              <div class="aside__tagCloud">
+                <h2>Tag cloud</h2>
+                <div>
+                  <img src="img/tagCloud.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+        <section class="price">
+          <h1 class="price__title">
+            Sign up today – 7 day money back guarantee
+          </h1>
+          <div class="price__cards">
+            <div class="price__cards__card">
+              <span class="price__cards__card__name">MONTHLY</span>
+              <hr />
+              <div class="price__cards__card__cost">
+                <span class="card__cost__valut">$</span>
+                <span class="card__cost__value">6.95</span>
+                <span class="card__cost__mo">/mo.</span>
+              </div>
+              <div class="price__cards__card__desc">
+                <span>Includes all VPN features.</span>
+                <span class="card__desc_save"></span>
+              </div>
+              <button class="price__cards__card__signUp btn btnWhite">
+                SIGN UP
+              </button>
+            </div>
+            <div class="price__cards__card optimalCard">
+              <span class="price__cards__card__name">Two Years</span>
+              <hr />
+              <div class="price__cards__card__cost">
+                <span class="card__cost__valut">$</span>
+                <span class="card__cost__value">2.91</span>
+                <span class="card__cost__mo">/mo.</span>
+              </div>
+              <div class="price__cards__card__desc">
+                <span
+                  ><span class="card__desc_action">$166.80</span>$69.95 per two
+                  years</span
+                >
+                <span class="card__desc_save">Save 58%*</span>
+              </div>
+              <button class="price__cards__card__signUp btn btnGreen">
+                SIGN UP
+              </button>
+            </div>
+            <div class="price__cards__card">
+              <span class="price__cards__card__name">YEARLY</span>
+              <hr />
+              <div class="price__cards__card__cost">
+                <span class="card__cost__valut">$</span>
+                <span class="card__cost__value">3.33</span>
+                <span class="card__cost__mo">/mo.</span>
+              </div>
+              <div class="price__cards__card__desc">
+                <span
+                  ><span class="card__desc_action">$83.40</span>$39.95 per
+                  year</span
+                >
+                <span class="card__desc_save">Save 52%*</span>
+              </div>
+              <button class="price__cards__card__signUp btn btnWhite">
+                SIGN UP
+              </button>
+            </div>
+          </div>
+          <div class="price__pays">
+            <span class="price__pays__text">Ways to pay:</span>
+            <img src="img/visa.svg" alt="" />
+            <img src="img/masterCard.svg" alt="" />
+            <img src="img/amircPay.svg" alt="" />
+            <img src="img/payPal.svg" alt="" />
+            <img src="img/bitcoin.svg" alt="" />
+            <img src="img/okPay.svg" alt="" />
+            <img src="img/amazon.svg" alt="" />
+          </div>
+          <div class="price__other">
+            <span
+              >How to pay anonymously<img src="img/arrowRight.svg" alt=""
+            /></span>
+            <span>REDEEM GIFT CARD<img src="img/arrowRight.svg" alt="" /></span>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section class="inlineWraper">
+          <h1>Company Name</h1>
+          <div class="footerContainer">
+            <div class="footer__company">
+              <h2>Company</h2>
+              <nav>
+                <ul>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Our Team</a></li>
+                  <li><a href="">Careers</a> </li>
+                  <li><a href="">Press</a></li>
+                  <li><a href="">In the Media</a></li>
+                  <li><a href=""><a href="">VPN Reviews</a></li>
+                  <li><a href="">Companies We Support</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Blog</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__midlePanel">
+              <div class="footer__programs">
+                <h2>programs</h2>
+                <nav>
+                  <ul>
+                    <li><a href="">Whitehat Security</a></li>
+                    <li>Affiliates</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__learnMore">
+                <h2>learn more</h2>
+                <nav>
+                  <ul>
+                    <li><a href="">VPN Encryption</a></li>
+                    <li><a href="">Android VPN App</a></li>
+                    <li><a href="">iOS VPN App</a></li>
+                    <li><a href="">PIA Sitemap</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="footer__legal">
+              <h2>LEGAL</h2>
+              <nav>
+                <ul>
+                  <li><a href="">Terms Of Service</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">DMCA Policy</a></li>
+                  <li><a href="">Export Control Policy</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__rightPanel">
+              <div class="footer__about">
+                <h2>ABOUT</h2>
+                <ul>
+                  <li>
+                    Private Internet Access is the leading VPN Service provider
+                    specializing in secure, encrypted VPN tunnels which create
+                    several layers of privacy and security providing you safety on
+                    the internet. Our service is backed by multiple gateways
+                    worldwide with access in 28+ countries, 44+ regions.
+                  </li>
+                  <li>Map data provided by Google</li>
+                  <li>
+                    PC Mag Editor’s Choice award image reprinted with permission.
+                    © 2012 Ziff Davis, Inc. All Rights Reserved. <br />
+                    PC Mag quote reprinted from www.pcmag.com with permission. ©
+                    2012 Ziff Davis, Inc. All Rights Reserved.
+                  </li>
+                  <li>© London Trust Media, Inc. All Rights Reserved.</li>
+                </ul>
+              </div>
+              <div class="footer__social">
+                <h2>SOCIAL</h2>
+                <ul class="footer__social__list">
+                  <li><img src="img/socFacebook.svg" alt="" /></li>
+                  <li><img src="img/socTwiter.svg" alt="" /></li>
+                  <li><img src="img/socGoogle.svg" alt="" /></li>
+                  <li><img src="img/socLinkIn.svg" alt="" /></li>
+                  <li><img src="img/socRedit.svg" alt="" /></li>
+                  <li><img src="img/socYouTube.svg" alt="" /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </body>
+    <script src="js/main.js"></script>
+  </html>
